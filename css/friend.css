@@ -1,0 +1,53 @@
+.profile {
+  display: flex;
+  align-items: center;
+  padding-bottom: 16px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.profile img {
+  width: 60px;
+  height: 60px;
+  border-radius: 20px;
+  margin-right: 16px;
+}
+
+.profile span {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.list {
+  margin: 16px 0px;
+  display: flex;
+  justify-content: space-between;
+  opacity: 0.5;
+}
+.friend-list {
+  display: flex;
+  margin-bottom: 16px;
+  transition: all 300ms ease-in-out;
+}
+.friend-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 20px;
+  margin-right: 16px;
+}
+.friend-column {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: center;
+}
+.friend-name {
+  font-size: 16px;
+  line-height: 25px;
+}
+.friend-text {
+  line-height: 25px;
+  font-size: 12px;
+  opacity: 0.5;
+}
+.friend-list:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}

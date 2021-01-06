@@ -1,0 +1,15 @@
+.menu {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+  align-items: center;
+}
+
+.menu-title {
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.menu-icon i {
+  margin: 0 8px;
+}

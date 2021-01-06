@@ -1,27 +1,19 @@
-#navbar {
+.navbar {
+  width: 100%;
   display: flex;
   justify-content: space-between;
-  padding: 8px;
+  height: 70px;
+  background-color: #f9f9fa;
+  position: fixed;
+  bottom: 0px;
+}
+.navbar i {
+  width: 25%;
+  line-height: 70px;
+  font-size: 24px;
+  transition: all 300ms ease-in-out;
 }
 
-.navbar__column {
-  width: 33%;
-}
-
-.navbar__column:nth-child(2) {
-  text-align: center;
-}
-
-.navbar__column:last-child {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-}
-
-.fa-bluetooth {
-  margin-right: 4px;
-}
-
-.fa-battery-half {
-  margin-left: 4px;
+.navbar i:hover {
+  transform: rotate(360deg);
 }
