@@ -1,0 +1,27 @@
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+}
+
+.navbar__column {
+  width: 33%;
+}
+
+.navbar__column:nth-child(2) {
+  text-align: center;
+}
+
+.navbar__column:last-child {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.fa-bluetooth {
+  margin-right: 4px;
+}
+
+.fa-battery-half {
+  margin-left: 4px;
+}

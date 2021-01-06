@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+      defer
+    ></script>
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>Welcome</title>
+  </head>
+  <body>
+    <nav id="navbar">
+      <div class="navbar__column">
+        <span>SKT</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="navbar__column">
+        <span> 00:00 </span>
+      </div>
+      <div class="navbar__column">
+        <i class="fab fa-bluetooth"></i>
+        <span>50%</span>
+        <i class="fas fa-battery-half"></i>
+      </div>
+    </nav>
+    <main class="main">
+      <section class="welcome">
+        <h1>Welcome to KakaoTalk</h1>
+        <h4>
+          If you have a Kakao Account,<br />log in with your email or phone
+          number
+        </h4>
+      </section>
+      <form action="friend.html" method="GET" class="login">
+        <input
+          class="login-input"
+          type="text"
+          placeholder="Email or phone number"
+          required
+        />
+        <input class="login-input" type="password" placeholder="Password" />
+        <input class="login-btn" type="submit" value="Log in" />
+        <input class="login-btn" type="submit" value="Sign Up" />
+      </form>
+      <footer><h5>Find Kakao Account or Password</h5></footer>
+    </main>
+  </body>
+</html>
