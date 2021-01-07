@@ -3,7 +3,17 @@
   justify-content: space-between;
   font-size: 22px;
   align-items: center;
+  padding-top: 10px;
   padding-bottom: 30px;
+}
+.setting-header-column {
+  width: 33%;
+}
+.setting-header-column:nth-child(2) {
+  text-align: center;
+}
+.setting-header-column:last-child {
+  text-align: end;
 }
 .icon-column-first {
   display: flex;

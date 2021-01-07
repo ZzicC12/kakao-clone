@@ -1,0 +1,131 @@
+#chatting {
+  background-color: #abc1d1;
+}
+.chatting-icon {
+  margin-right: 12px;
+}
+
+#chatting nav {
+  background-color: #abc1d1;
+}
+
+.chat-date {
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 5px 10px;
+  background-color: #92a4b2;
+  border-radius: 10px;
+  color: white;
+  font-size: 14px;
+}
+
+.my-time {
+  font-size: 12px;
+  opacity: 0.5;
+  margin-right: 10px;
+  transform: translateY(23px);
+}
+.my-text {
+  padding: 10px;
+  background-color: #fee500;
+  border-radius: 10px;
+}
+.chat-my {
+  width: 100%;
+  padding: 20px 0px;
+  display: flex;
+  justify-content: flex-end;
+}
+.chat-profile img {
+  width: 40px;
+  height: 40px;
+  border-radius: 15px;
+  margin-right: 10px;
+}
+.chat-your {
+  width: 100%;
+  padding: 20px 0px;
+  display: flex;
+}
+.chat-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.chat-row {
+  display: flex;
+}
+
+.chat-name {
+  opacity: 0.6;
+}
+
+.your-text {
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.your-text p {
+  margin-bottom: 10px;
+}
+.your-time {
+  font-size: 12px;
+  opacity: 0.5;
+  margin-left: 10px;
+  transform: translateY(50px);
+}
+.input {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  background-color: white;
+}
+.input-type {
+  display: flex;
+  border: 1px solid lightgray;
+
+  border-radius: 10px;
+  margin: 2px;
+  background-color: #f8f8f8;
+  width: 84%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fa-plus {
+  border: 2px solid black;
+  padding: 4px;
+  border-radius: 5px;
+  margin: 0 10px;
+  opacity: 0.5;
+  font-size: 12px;
+}
+.input-type input {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  margin-left: 10px;
+  width: 200px;
+}
+.fa-smile-beam {
+  margin-right: 10px;
+  font-size: 20px;
+  opacity: 0.5;
+}
+
+.input-type-icon {
+  display: flex;
+  align-items: center;
+}
+.input-type-icon div:last-child {
+  background-color: #fee500;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  border-radius: 50%;
+}
