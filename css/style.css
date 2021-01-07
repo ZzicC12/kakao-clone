@@ -11,6 +11,7 @@
 @import "welcome.css";
 @import "friend.css";
 @import "chat.css";
+@import "find.css";
 
 * {
   box-sizing: border-box;
