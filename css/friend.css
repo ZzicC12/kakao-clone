@@ -1,3 +1,7 @@
+.friend-main {
+  overflow-y: auto;
+  height: 90vh;
+}
 .profile {
   display: flex;
   align-items: center;
@@ -50,4 +54,36 @@
 }
 .friend-list:hover {
   background-color: rgba(0, 0, 0, 0.1);
+}
+
+#splash {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 2;
+  animation: splash 2s ease-in-out forwards;
+  animation-delay: 1s;
+}
+
+#splash img {
+  width: 100vw;
+  height: 100vh;
+}
+
+@keyframes splash {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+.fa-cog {
+  transition: all 300ms linear;
+}
+.fa-cog:hover {
+  transform: rotateZ(360deg);
 }
