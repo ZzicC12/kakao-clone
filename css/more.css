@@ -46,8 +46,13 @@
   flex-direction: column;
   width: 25%;
   align-items: center;
+  padding-top: 20px;
 }
 
 .more-list-column span {
   padding: 20px 0;
+}
+
+.more-list-column:hover {
+  background-color: rgba(0, 0, 0, 0.1);
 }

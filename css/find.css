@@ -10,6 +10,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-top: 20px;
 }
 
 .find-link__title {
@@ -130,4 +131,8 @@
 .find-link a {
   text-decoration: none;
   color: inherit;
+}
+
+.find-link a:hover {
+  background-color: rgba(0, 0, 0, 0.1);
 }
