@@ -90,13 +90,13 @@
 .input-type {
   display: flex;
   border: 1px solid lightgray;
-
   border-radius: 10px;
   margin: 2px;
   background-color: #f8f8f8;
   width: 84%;
   justify-content: space-between;
   align-items: center;
+  transition: all 300ms ease-in-out;
 }
 
 .fa-plus {
@@ -160,4 +160,25 @@
   to {
     opacity: 1;
   }
+}
+
+.input:focus-within div i {
+  opacity: 0;
+}
+
+.input:focus-within div[class="up"] {
+  opacity: 0;
+}
+
+.input-type input:focus {
+  width: 300px;
+}
+
+.input-type:focus-within {
+  transform: translateX(-11%);
+  width: 95%;
+}
+
+.input:focus-within {
+  background-color: transparent;
 }
