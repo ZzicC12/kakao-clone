@@ -170,13 +170,9 @@
   opacity: 0;
 }
 
-.input-type input:focus {
-  width: 300px;
-}
-
 .input-type:focus-within {
-  transform: translateX(-11%);
-  width: 95%;
+  transform: translateX(-20px);
+  width: 98vw;
 }
 
 .input:focus-within {
